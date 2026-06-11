@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agent Bubble Orchestration Output",
+  "type": "object",
+  "required": [
+    "collaboration_mode",
+    "debate_enabled",
+    "mode_switch",
+    "agent_bubble",
+    "debate_turns",
+    "conflict_summary",
+    "final_recommendation",
+    "display_mode"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "collaboration_mode": { "enum": ["quick", "debate"] },
+    "debate_enabled": { "type": "boolean" },
+    "mode_switch": {
+      "type": "object",
+      "required": ["default_mode", "quick_label", "debate_label", "recommendation"],
+      "additionalProperties": false,
+      "properties": {
+        "default_mode": { "const": "quick" },
+        "quick_label": { "type": "string", "maxLength": 16 },
+        "debate_label": { "type": "string", "maxLength": 16 },
+        "recommendation": { "type": "string", "maxLength": 100 }
+      }
+    },
+    "agent_bubble": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["agent", "role", "message"],
+        "additionalProperties": false,
+        "properties": {
+          "agent": { "enum": ["比价军师", "省钱达人", "口碑探员", "盯价哨兵"] },
+          "role": { "type": "string" },
+          "message": { "type": "string", "maxLength": 80 }
+        }
+      }
+    },
+    "debate_turns": {
+      "type": "array",
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": ["agent", "stance", "target", "message"],
+        "additionalProperties": false,
+        "properties": {
+          "agent": { "enum": ["比价军师", "省钱达人", "口碑探员", "盯价哨兵"] },
+          "stance": { "enum": ["opening", "pushback", "risk_check", "timing_check", "synthesis"] },
+          "target": {
+            "description": "The Agent or decision point being challenged. Use none when not applicable.",
+            "type": "string",
+            "maxLength": 20
+          },
+          "message": { "type": "string", "maxLength": 100 }
+        }
+      }
+    },
+    "conflict_summary": { "type": "string", "maxLength": 100 },
+    "final_recommendation": { "type": "string", "maxLength": 160 },
+    "display_mode": { "enum": ["top1_expand", "compare_followup"] }
+  }
+}

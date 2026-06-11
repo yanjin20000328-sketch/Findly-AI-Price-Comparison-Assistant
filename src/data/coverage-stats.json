@@ -1,0 +1,2185 @@
+{
+  "exported_at": "2026-06-06T14:19:51.217Z",
+  "data_type": "基于商品字段生成的拟真模拟评论",
+  "theme_count": 24,
+  "product_count": 120,
+  "review_count": 2880,
+  "minimum_positive_reviews_per_product": 17,
+  "minimum_negative_reviews_per_product": 4,
+  "minimum_positive_topics_per_product": 4,
+  "minimum_negative_topics_per_product": 4,
+  "products_without_positive_reviews": [],
+  "products_without_negative_reviews": [],
+  "per_product": [
+    {
+      "product_id": "3c-phone-iphone17pro-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "性能流畅",
+        "影像表现",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "续航发热",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-phone-iphone17pro-pdd-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "性能流畅",
+        "影像表现",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "续航发热",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-phone-iphone17pro-jd-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "性能流畅",
+        "影像表现",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "续航发热",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-phone-iphone17pro-amazon-5",
+      "review_count": 24,
+      "positive_count": 19,
+      "negative_count": 5,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "性能流畅",
+        "影像表现",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "续航发热",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-phone-iphone17pro-brand-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "性能流畅",
+        "影像表现",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "续航发热",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-earbuds-airpods-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "降噪连接",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "佩戴适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-earbuds-airpods-pdd-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "降噪连接",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "佩戴适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-earbuds-airpods-jd-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "降噪连接",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "佩戴适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-earbuds-airpods-brand-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "降噪连接",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "佩戴适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-earbuds-airpods-amazon-5",
+      "review_count": 24,
+      "positive_count": 19,
+      "negative_count": 5,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "降噪连接",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "佩戴适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-tablet-ipad-air-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "屏幕体验",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "配件成本",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-tablet-ipad-air-pdd-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "屏幕体验",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "配件成本",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-tablet-ipad-air-jd-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "屏幕体验",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "配件成本",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-tablet-ipad-air-brand-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "屏幕体验",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "配件成本",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-tablet-ipad-air-amazon-5",
+      "review_count": 24,
+      "positive_count": 19,
+      "negative_count": 5,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "屏幕体验",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "配件成本",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-watch-huawei-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "续航健康",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺寸适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-watch-huawei-pdd-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "续航健康",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺寸适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-watch-huawei-jd-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "续航健康",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺寸适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-watch-huawei-brand-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "续航健康",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺寸适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-watch-huawei-amazon-5",
+      "review_count": 24,
+      "positive_count": 19,
+      "negative_count": 5,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "续航健康",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺寸适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-camera-sony-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "画质",
+        "视频",
+        "便携",
+        "渠道",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "续航",
+        "镜头",
+        "价格",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-camera-sony-pdd-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "画质",
+        "视频",
+        "便携",
+        "渠道",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "续航",
+        "镜头",
+        "价格",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-camera-sony-jd-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "画质",
+        "视频",
+        "便携",
+        "渠道",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "续航",
+        "镜头",
+        "价格",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-camera-sony-brand-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "画质",
+        "视频",
+        "便携",
+        "渠道",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "续航",
+        "镜头",
+        "价格",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-camera-sony-amazon-5",
+      "review_count": 24,
+      "positive_count": 19,
+      "negative_count": 5,
+      "positive_tags": [
+        "画质",
+        "视频",
+        "便携",
+        "渠道",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "续航",
+        "镜头",
+        "价格",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-powerbank-anker-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "快充能力",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "重量发热",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-powerbank-anker-pdd-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "快充能力",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "重量发热",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-powerbank-anker-jd-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "快充能力",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "重量发热",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-powerbank-anker-brand-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "快充能力",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "重量发热",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-powerbank-anker-amazon-5",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "快充能力",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "重量发热",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-keyboard-keychron-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "手感做工",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "重量软件",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-keyboard-keychron-pdd-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "手感做工",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "重量软件",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-keyboard-keychron-jd-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "手感做工",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "重量软件",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-keyboard-keychron-brand-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "手感做工",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "重量软件",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-keyboard-keychron-amazon-5",
+      "review_count": 24,
+      "positive_count": 19,
+      "negative_count": 5,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "手感做工",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "重量软件",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-monitor-dell-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "显示连接",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "占用空间",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-monitor-dell-pdd-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "显示连接",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "占用空间",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-monitor-dell-jd-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "显示连接",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "占用空间",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-monitor-dell-brand-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "显示连接",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "占用空间",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "3c-monitor-dell-amazon-5",
+      "review_count": 24,
+      "positive_count": 19,
+      "negative_count": 5,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "显示连接",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "占用空间",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-dress-vip-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-dress-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-dress-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-dress-douyin-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-dress-xiaohongshu-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-jeans-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-jeans-vip-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-jeans-douyin-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-jeans-xiaohongshu-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-jeans-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-suncoat-vip-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-suncoat-douyin-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-suncoat-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-suncoat-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-suncoat-xiaohongshu-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-blazer-vip-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-blazer-douyin-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-blazer-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-blazer-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-blazer-xiaohongshu-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-sneakers-vip-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "缓震舒适",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-sneakers-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "缓震舒适",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-sneakers-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "缓震舒适",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-sneakers-douyin-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "缓震舒适",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-sneakers-xiaohongshu-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "缓震舒适",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-downjacket-vip-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-downjacket-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-downjacket-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-downjacket-douyin-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-downjacket-xiaohongshu-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-shirt-vip-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-shirt-douyin-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-shirt-xiaohongshu-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-shirt-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-shirt-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-skirt-taobao-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-skirt-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-skirt-douyin-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-skirt-xiaohongshu-4",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "fashion-skirt-vip-3",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "版型材质",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "尺码色差",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-foundation-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-foundation-kaola-4",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-foundation-xiaohongshu-3",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-foundation-jd-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-foundation-brand-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-lipstick-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-lipstick-kaola-4",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-lipstick-xiaohongshu-3",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-lipstick-jd-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-lipstick-brand-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-serum-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-serum-kaola-4",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-serum-jd-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-serum-xiaohongshu-3",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-serum-brand-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-cream-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-cream-kaola-4",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-cream-xiaohongshu-3",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-cream-jd-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-cream-brand-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-sunscreen-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-sunscreen-xiaohongshu-3",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-sunscreen-kaola-4",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-sunscreen-brand-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-sunscreen-jd-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-eyeshadow-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-eyeshadow-kaola-4",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-eyeshadow-xiaohongshu-3",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-eyeshadow-jd-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-eyeshadow-brand-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-cleanser-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-cleanser-xiaohongshu-3",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-cleanser-kaola-4",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-cleanser-brand-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-cleanser-jd-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-perfume-taobao-1",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-perfume-kaola-4",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-perfume-xiaohongshu-3",
+      "review_count": 24,
+      "positive_count": 17,
+      "negative_count": 7,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-perfume-jd-2",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    },
+    {
+      "product_id": "beauty-perfume-brand-5",
+      "review_count": 24,
+      "positive_count": 20,
+      "negative_count": 4,
+      "positive_tags": [
+        "体验",
+        "价格",
+        "使用感受",
+        "履约服务"
+      ],
+      "negative_tags": [
+        "细节",
+        "售后",
+        "个体适配",
+        "售后规则"
+      ]
+    }
+  ]
+}

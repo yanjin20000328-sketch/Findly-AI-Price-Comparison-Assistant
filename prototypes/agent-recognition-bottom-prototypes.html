@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Findly Agent 识别底部交互原型</title>
+  <style>
+    :root {
+      --green: #9BE7B7;
+      --deep: #3D8B5D;
+      --ink: #171717;
+      --muted: #667085;
+      --line: #DDEFE4;
+      --surface: #F7FBF8;
+      --card: rgba(255,255,255,.78);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 20% 0%, rgba(155,231,183,.34), transparent 30%),
+        linear-gradient(135deg, #F7FBF8 0%, #EEF7F1 100%);
+      color: var(--ink);
+    }
+
+    .page {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 34px;
+    }
+
+    .hero {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 26px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 32px;
+      letter-spacing: -0.04em;
+    }
+
+    .hero p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .hint {
+      padding: 10px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,.74);
+      color: var(--deep);
+      font-weight: 700;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(270px, 1fr));
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .phone {
+      height: 760px;
+      border-radius: 42px;
+      padding: 9px;
+      background: linear-gradient(145deg, #202020, #0e0e0e);
+      box-shadow: 0 24px 70px rgba(23,23,23,.18);
+    }
+
+    .screen {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      border-radius: 34px;
+      background: var(--surface);
+      border: 1px solid rgba(255,255,255,.1);
+    }
+
+    .island {
+      position: absolute;
+      z-index: 20;
+      top: 11px;
+      left: 50%;
+      width: 104px;
+      height: 30px;
+      transform: translateX(-50%);
+      border-radius: 999px;
+      background: #101010;
+    }
+
+    .topbar {
+      position: absolute;
+      z-index: 10;
+      top: 58px;
+      left: 16px;
+      right: 16px;
+      height: 46px;
+      border-radius: 23px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.86);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 800;
+      box-shadow: 0 10px 24px rgba(23,23,23,.06);
+    }
+
+    .image-area {
+      position: absolute;
+      top: 120px;
+      left: 18px;
+      right: 18px;
+      height: 356px;
+      border-radius: 30px;
+      border: 6px solid #fff;
+      background:
+        linear-gradient(160deg, rgba(23,23,23,.08), rgba(23,23,23,.18)),
+        radial-gradient(circle at 52% 36%, #d7dce5 0 10%, transparent 11%),
+        linear-gradient(135deg, #C9D9D0 0%, #F4F1E8 42%, #D7E6DD 100%);
+      overflow: hidden;
+      box-shadow: 0 22px 56px rgba(23,23,23,.13);
+    }
+
+    .scan-line {
+      position: absolute;
+      inset-inline: 0;
+      top: 0;
+      height: 76px;
+      background: linear-gradient(to bottom, transparent, rgba(155,231,183,.58), transparent);
+      animation: scan 2.2s infinite ease-in-out;
+    }
+
+    .tag {
+      position: absolute;
+      border-radius: 999px;
+      padding: 7px 12px;
+      background: rgba(255,255,255,.9);
+      border: 1px solid rgba(255,255,255,.9);
+      font-size: 11px;
+      font-weight: 800;
+      box-shadow: 0 10px 28px rgba(23,23,23,.13);
+      animation: float 3.7s infinite ease-in-out;
+    }
+    .t1 { left: 34px; top: 62px; }
+    .t2 { right: 28px; top: 112px; animation-delay: .4s; }
+    .t3 { left: 70px; bottom: 86px; animation-delay: .8s; }
+    .t4 { right: 52px; bottom: 48px; animation-delay: 1.2s; }
+
+    .bottom {
+      position: absolute;
+      left: 18px;
+      right: 18px;
+      bottom: 22px;
+      height: 220px;
+    }
+
+    .concept-title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 0 6px rgba(155,231,183,.18);
+      animation: pulse 1.3s infinite;
+    }
+
+    .agent {
+      width: 54px;
+      height: 54px;
+      border-radius: 20px;
+      object-fit: cover;
+      background: #fff;
+      border: 2px solid #fff;
+      box-shadow: 0 11px 24px rgba(23,23,23,.11);
+    }
+
+    .orbital {
+      top: 28px;
+      height: 188px;
+      border-radius: 32px;
+      border: 1px solid rgba(221,239,228,.92);
+      background: rgba(255,255,255,.62);
+      box-shadow: 0 18px 46px rgba(23,23,23,.07);
+      backdrop-filter: blur(18px);
+    }
+
+    .orbital .center {
+      position: absolute;
+      top: 58px;
+      left: 50%;
+      width: 78px;
+      height: 78px;
+      transform: translateX(-50%);
+      border-radius: 28px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, #9BE7B7, #E9F8EF);
+      border: 1px solid white;
+      box-shadow: 0 16px 34px rgba(75,170,114,.22);
+      font-weight: 900;
+      line-height: .95;
+      text-align: center;
+    }
+
+    .orbit-ring {
+      position: absolute;
+      inset: 34px 35px;
+      border-radius: 999px;
+      border: 1px dashed rgba(61,139,93,.28);
+    }
+
+    .orbital .agent {
+      position: absolute;
+      animation: blink 2.4s infinite ease-in-out;
+    }
+    .orbital .a1 { left: 32px; top: 48px; }
+    .orbital .a2 { right: 32px; top: 48px; animation-delay: .55s; }
+    .orbital .a3 { left: 64px; bottom: 24px; animation-delay: 1.1s; }
+    .orbital .a4 { right: 64px; bottom: 24px; animation-delay: 1.65s; }
+
+    .bubble {
+      position: absolute;
+      max-width: 132px;
+      padding: 9px 12px;
+      border-radius: 18px;
+      background: #fff;
+      border: 1px solid var(--line);
+      font-size: 12px;
+      line-height: 1.3;
+      box-shadow: 0 12px 26px rgba(23,23,23,.07);
+      animation: pop 4.8s infinite ease-in-out;
+    }
+    .orbital .bubble { right: 18px; top: 18px; }
+
+    .relay {
+      top: 28px;
+      height: 188px;
+    }
+
+    .relay-card {
+      position: absolute;
+      left: 0;
+      right: 0;
+      display: grid;
+      grid-template-columns: 56px 1fr;
+      gap: 12px;
+      align-items: center;
+      padding: 12px;
+      border-radius: 25px;
+      background: rgba(255,255,255,.84);
+      border: 1px solid var(--line);
+      box-shadow: 0 16px 34px rgba(23,23,23,.08);
+      animation: relay 5.2s infinite ease-in-out;
+    }
+    .relay-card:nth-child(2) { top: 0; }
+    .relay-card:nth-child(3) { top: 62px; animation-delay: .45s; }
+    .relay-card:nth-child(4) { top: 124px; animation-delay: .9s; }
+    .relay-card p { margin: 0; font-size: 12px; color: var(--muted); }
+    .relay-card b { display: block; margin-bottom: 3px; color: var(--ink); font-size: 13px; }
+
+    .console {
+      top: 28px;
+      height: 188px;
+      border-radius: 32px;
+      background: #171717;
+      color: white;
+      overflow: hidden;
+      box-shadow: 0 18px 46px rgba(23,23,23,.18);
+    }
+
+    .console-head {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 13px;
+      background: rgba(255,255,255,.05);
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .console .agent { width: 34px; height: 34px; border-radius: 13px; }
+    .log {
+      padding: 14px;
+      display: grid;
+      gap: 9px;
+      font-size: 12px;
+      color: rgba(255,255,255,.74);
+    }
+    .log-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      opacity: .42;
+      animation: logFlash 4s infinite ease-in-out;
+    }
+    .log-row:nth-child(2) { animation-delay: .55s; }
+    .log-row:nth-child(3) { animation-delay: 1.1s; }
+    .log-row:nth-child(4) { animation-delay: 1.65s; }
+    .mini-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--green);
+    }
+    .progress {
+      position: absolute;
+      left: 14px;
+      right: 14px;
+      bottom: 14px;
+      height: 8px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.12);
+      overflow: hidden;
+    }
+    .progress::after {
+      content: "";
+      display: block;
+      height: 100%;
+      width: 64%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--green), #fff);
+      animation: grow 3s infinite ease-in-out;
+    }
+
+    .stage {
+      top: 28px;
+      height: 188px;
+      border-radius: 32px;
+      background:
+        radial-gradient(circle at 50% 44%, rgba(155,231,183,.35), transparent 36%),
+        rgba(255,255,255,.65);
+      border: 1px solid var(--line);
+      box-shadow: 0 18px 46px rgba(23,23,23,.07);
+      overflow: hidden;
+    }
+    .stage .agent {
+      position: absolute;
+      width: 62px;
+      height: 62px;
+      border-radius: 24px;
+      animation: stageIn 4.8s infinite ease-in-out;
+    }
+    .stage .lead { left: 50%; top: 45px; transform: translateX(-50%); width: 78px; height: 78px; border-radius: 28px; }
+    .stage .side1 { left: 28px; top: 78px; animation-delay: .5s; }
+    .stage .side2 { right: 28px; top: 78px; animation-delay: 1s; }
+    .stage .side3 { left: 50%; bottom: 14px; transform: translateX(-50%); animation-delay: 1.5s; }
+    .stage-caption {
+      position: absolute;
+      left: 18px;
+      right: 18px;
+      bottom: 14px;
+      border-radius: 18px;
+      padding: 9px 12px;
+      background: rgba(255,255,255,.86);
+      border: 1px solid rgba(255,255,255,.8);
+      font-size: 12px;
+      font-weight: 800;
+      text-align: center;
+      box-shadow: 0 12px 24px rgba(23,23,23,.07);
+    }
+
+    .abs { position: absolute; left: 0; right: 0; }
+
+    @keyframes scan {
+      0%, 100% { transform: translateY(-80px); opacity: .28; }
+      50% { transform: translateY(360px); opacity: 1; }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0) scale(.96); opacity: .78; }
+      50% { transform: translateY(-11px) scale(1.02); opacity: 1; }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(.86); opacity: .6; }
+      50% { transform: scale(1.15); opacity: 1; }
+    }
+    @keyframes blink {
+      0%, 100% { transform: translateY(0) scale(.92); filter: saturate(.72); opacity: .62; }
+      38%, 52% { transform: translateY(-8px) scale(1.08); filter: saturate(1.15); opacity: 1; box-shadow: 0 0 0 7px rgba(155,231,183,.22), 0 14px 26px rgba(23,23,23,.14); }
+    }
+    @keyframes pop {
+      0%, 25%, 100% { transform: translateY(8px) scale(.92); opacity: 0; }
+      38%, 72% { transform: translateY(0) scale(1); opacity: 1; }
+    }
+    @keyframes relay {
+      0%, 100% { transform: translateX(0) scale(.98); opacity: .58; }
+      45%, 60% { transform: translateX(8px) scale(1.02); opacity: 1; }
+    }
+    @keyframes logFlash {
+      0%, 100% { opacity: .38; transform: translateX(0); }
+      42%, 58% { opacity: 1; transform: translateX(4px); color: white; }
+    }
+    @keyframes grow {
+      0%, 100% { width: 26%; }
+      55% { width: 84%; }
+    }
+    @keyframes stageIn {
+      0%, 100% { opacity: .5; transform: translateY(7px) scale(.88); }
+      45%, 62% { opacity: 1; transform: translateY(-3px) scale(1.06); }
+    }
+
+    @media (max-width: 1220px) {
+      .grid { grid-template-columns: repeat(2, minmax(280px, 1fr)); }
+    }
+
+    @media (max-width: 680px) {
+      .page { padding: 18px; }
+      .hero { display: block; }
+      .hint { display: inline-block; margin-top: 14px; }
+      .grid { grid-template-columns: 1fr; }
+      .phone { height: 720px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div>
+        <h1>Findly 识别页底部 Agent 交互原型</h1>
+        <p>上方维持“闪动商品标签/气泡扫描”，底部替换为更有生命感的 Agent 协作区域。</p>
+      </div>
+      <div class="hint">建议优先看方案 A / D</div>
+    </header>
+
+    <section class="grid">
+      <article class="phone">
+        <div class="screen">
+          <div class="island"></div>
+          <div class="topbar">Findly 正在识别商品</div>
+          <div class="image-area">
+            <div class="scan-line"></div>
+            <span class="tag t1">品牌</span><span class="tag t2">型号</span><span class="tag t3">材质</span><span class="tag t4">同款</span>
+          </div>
+          <div class="bottom">
+            <div class="concept-title"><span>A · Agent Orbit</span><i class="status-dot"></i></div>
+            <div class="abs orbital">
+              <div class="orbit-ring"></div>
+              <div class="center">Findly<br/>识别中</div>
+              <img class="agent a1" src="../src/assets/agents/agent-compare.png" alt="compare" />
+              <img class="agent a2" src="../src/assets/agents/agent-saving.png" alt="saving" />
+              <img class="agent a3" src="../src/assets/agents/agent-reputation.png" alt="reputation" />
+              <img class="agent a4" src="../src/assets/agents/agent-watch.png" alt="watch" />
+              <div class="bubble">比价军师：先确认同款</div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="phone">
+        <div class="screen">
+          <div class="island"></div>
+          <div class="topbar">Findly 正在识别商品</div>
+          <div class="image-area">
+            <div class="scan-line"></div>
+            <span class="tag t1">颜色</span><span class="tag t2">类目</span><span class="tag t3">平台词</span><span class="tag t4">规格</span>
+          </div>
+          <div class="bottom">
+            <div class="concept-title"><span>B · Relay Cards</span><i class="status-dot"></i></div>
+            <div class="abs relay">
+              <div class="relay-card">
+                <img class="agent" src="../src/assets/agents/agent-compare.png" alt="compare" />
+                <p><b>比价军师</b>正在校验是不是同款商品</p>
+              </div>
+              <div class="relay-card">
+                <img class="agent" src="../src/assets/agents/agent-saving.png" alt="saving" />
+                <p><b>省钱达人</b>准备计算券后到手价</p>
+              </div>
+              <div class="relay-card">
+                <img class="agent" src="../src/assets/agents/agent-reputation.png" alt="reputation" />
+                <p><b>口碑探员</b>预读风险关键词</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="phone">
+        <div class="screen">
+          <div class="island"></div>
+          <div class="topbar">Findly 正在识别商品</div>
+          <div class="image-area">
+            <div class="scan-line"></div>
+            <span class="tag t1">主体</span><span class="tag t2">轮廓</span><span class="tag t3">排除配件</span><span class="tag t4">检索词</span>
+          </div>
+          <div class="bottom">
+            <div class="concept-title"><span>C · Agent Console</span><i class="status-dot"></i></div>
+            <div class="abs console">
+              <div class="console-head">
+                <img class="agent" src="../src/assets/agents/findly-product-logo.png" alt="findly" />
+                Agent 协作日志
+              </div>
+              <div class="log">
+                <div class="log-row"><i class="mini-dot"></i>比价军师锁定商品主体</div>
+                <div class="log-row"><i class="mini-dot"></i>省钱达人生成平台检索词</div>
+                <div class="log-row"><i class="mini-dot"></i>口碑探员过滤配件/非同款</div>
+                <div class="log-row"><i class="mini-dot"></i>盯价哨兵准备历史低价位</div>
+              </div>
+              <div class="progress"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="phone">
+        <div class="screen">
+          <div class="island"></div>
+          <div class="topbar">Findly 正在识别商品</div>
+          <div class="image-area">
+            <div class="scan-line"></div>
+            <span class="tag t1">品牌</span><span class="tag t2">预算</span><span class="tag t3">渠道</span><span class="tag t4">售后</span>
+          </div>
+          <div class="bottom">
+            <div class="concept-title"><span>D · Spotlight Stage</span><i class="status-dot"></i></div>
+            <div class="abs stage">
+              <img class="agent lead" src="../src/assets/agents/agent-compare.png" alt="compare" />
+              <img class="agent side1" src="../src/assets/agents/agent-saving.png" alt="saving" />
+              <img class="agent side2" src="../src/assets/agents/agent-reputation.png" alt="reputation" />
+              <img class="agent side3" src="../src/assets/agents/agent-watch.png" alt="watch" />
+              <div class="stage-caption">比价军师正在召集伙伴</div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

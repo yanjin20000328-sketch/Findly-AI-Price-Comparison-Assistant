@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F59AB7"/><stop offset="1" stop-color="#7C3F58"/></linearGradient>
+    <radialGradient id="lens"><stop stop-color="#8DD8FF"/><stop offset=".45" stop-color="#26557B"/><stop offset="1" stop-color="#090D12"/></radialGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF1F5"/><stop offset="1" stop-color="#F59AB7"/></linearGradient>
+    <pattern id="plaid" width="60" height="60" patternUnits="userSpaceOnUse"><rect width="60" height="60" fill="#DDEEFF"/><path d="M0 15h60M0 45h60M15 0v60M45 0v60" stroke="#6D91B3" stroke-width="6"/></pattern>
+  </defs>
+  <rect width="800" height="800" fill="#FFFFFF"/>
+  <rect x="28" y="28" width="744" height="744" rx="38" fill="#FFFFFF" stroke="#EEF1F3" stroke-width="3"/>
+  <rect x="55" y="55" width="110" height="42" rx="12" fill="#FF3B30"/><text x="110" y="83" text-anchor="middle" font-family="Arial,'PingFang SC',sans-serif" font-size="22" font-weight="800" fill="white">618 好价</text>
+  <circle cx="400" cy="385" r="260" fill="#FFF1F5" opacity=".42"/>
+  <path d="M278 175h244l-22 430H410l-10-252-10 252h-90z" fill="#5380AD" stroke="#315B83" stroke-width="8"/><path d="M278 240h244M400 175v178" stroke="#B7D0E7" stroke-width="7"/><path d="M305 205h70M425 205h70" stroke="#315B83" stroke-width="6"/>
+  <rect x="58" y="640" width="684" height="112" rx="24" fill="#FFFFFF" stroke="#E8ECEF" stroke-width="3"/>
+  <text x="82" y="684" font-family="Arial,'PingFang SC',sans-serif" font-size="25" font-weight="800" fill="#171717">高腰直筒复古水洗牛仔裤</text>
+  <text x="82" y="720" font-family="Arial,'PingFang SC',sans-serif" font-size="16" fill="#6B7280">Denim Lab · City Straight · 5 平台可比</text>
+  <rect x="615" y="691" width="100" height="36" rx="18" fill="#7C3F58"/><text x="665" y="715" text-anchor="middle" font-family="Arial,'PingFang SC',sans-serif" font-size="15" font-weight="700" fill="white">牛仔裤</text>
+</svg>

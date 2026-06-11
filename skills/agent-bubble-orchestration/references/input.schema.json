@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agent Bubble Orchestration Input",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["display_mode"],
+  "properties": {
+    "display_mode": { "enum": ["top1_expand", "compare_followup"] },
+    "collaboration_mode": {
+      "description": "quick is the default result-first experience; debate is the optional detailed discussion experience.",
+      "enum": ["quick", "debate"]
+    },
+    "debate_intensity": {
+      "description": "Controls how strong the visible disagreement should feel. Keep light for normal users.",
+      "enum": ["light", "medium"]
+    },
+    "user_intent": {
+      "description": "Optional signal for choosing whether debate is appropriate.",
+      "enum": ["immediate_result", "needs_explanation", "tradeoff_question", "demo_showcase"]
+    },
+    "question": { "type": "string" },
+    "product_context": { "type": "object" },
+    "candidate_offers": { "type": "array" },
+    "top_product_id": { "type": "string" },
+    "reputation_card": { "type": "object" },
+    "saving_plan_card": { "type": "object" },
+    "watch_card": { "type": "object" }
+  }
+}

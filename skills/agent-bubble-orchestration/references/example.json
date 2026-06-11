@@ -1,0 +1,74 @@
+{
+  "input": {
+    "display_mode": "top1_expand",
+    "collaboration_mode": "debate",
+    "debate_intensity": "light",
+    "user_intent": "tradeoff_question",
+    "question": "国行和港版区别是啥？",
+    "top_product_id": "demo-taobao-lenovo-yoga-pro",
+    "product_context": {
+      "recognized_product": "联想 YOGA Pro 14s"
+    }
+  },
+  "output": {
+    "collaboration_mode": "debate",
+    "debate_enabled": true,
+    "mode_switch": {
+      "default_mode": "quick",
+      "quick_label": "快速结论",
+      "debate_label": "展开辩论",
+      "recommendation": "默认先给结论；用户想看取舍时再展开辩论。"
+    },
+    "agent_bubble": [
+      {
+        "agent": "比价军师",
+        "role": "综合推荐",
+        "message": "这款匹配度和渠道稳定性更好，适合作为综合推荐。"
+      },
+      {
+        "agent": "省钱达人",
+        "role": "优惠判断",
+        "message": "已知优惠后价格接近合理区间，后续可继续确认平台券。"
+      },
+      {
+        "agent": "口碑探员",
+        "role": "风险判断",
+        "message": "当前口碑数据有限，建议下单前再看售后和退换反馈。"
+      },
+      {
+        "agent": "盯价哨兵",
+        "role": "时机判断",
+        "message": "价格已接近模拟低位，急用可买，不急可继续盯价。"
+      }
+    ],
+    "debate_turns": [
+      {
+        "agent": "比价军师",
+        "stance": "opening",
+        "target": "版本判断",
+        "message": "先别只看便宜，国行优势是联保、发票和渠道确定性，适合怕麻烦的用户。"
+      },
+      {
+        "agent": "省钱达人",
+        "stance": "pushback",
+        "target": "比价军师",
+        "message": "我不同意只看省心。如果港版便宜很多，差价足够覆盖风险，就值得进备选。"
+      },
+      {
+        "agent": "口碑探员",
+        "stance": "risk_check",
+        "target": "省钱达人",
+        "message": "便宜要打个问号。港版重点看激活、保修、发票和差评里有没有售后扯皮。"
+      },
+      {
+        "agent": "盯价哨兵",
+        "stance": "timing_check",
+        "target": "购买时机",
+        "message": "不急的话先盯国行活动价；如果国行快接近港版价，就没必要折腾版本风险。"
+      }
+    ],
+    "conflict_summary": "核心分歧是低价差价是否足以抵消版本和售后风险。",
+    "final_recommendation": "综合推荐这款，价格不是最低但渠道、配置和风险更均衡。",
+    "display_mode": "top1_expand"
+  }
+}

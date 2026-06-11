@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent 气泡协同"
+  short_description: "为 Top 1 展开和 AI 对比追问生成 4 个 Agent 的快速气泡或详细辩论。"
+  default_prompt: "Use this Findly skill when the UI needs quick agent_bubble summaries or debate_turns from 比价军师, 省钱达人, 口碑探员, and 盯价哨兵."
